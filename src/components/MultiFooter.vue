@@ -43,7 +43,7 @@
           </li>
           <li class="flex items-center gap-3">
             <EnvelopeIcon class="w-5 h-5 text-[#bbf706] shrink-0" />
-            <span>info@gymboss.id</span>
+            <span>info@gymbase.id</span>
           </li>
         </ul>
       </div>
