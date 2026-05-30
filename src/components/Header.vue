@@ -22,15 +22,15 @@
       <router-link to="/about" class="text-sm font-medium hover:text-[#bbf706] transition-colors">About</router-link>
       <router-link to="/contact" class="text-sm font-medium hover:text-[#bbf706] transition-colors">Contact</router-link>
     </nav>
-    <a href="/#pricing" class="hidden lg:inline-block bg-[#bbf706] text-black px-6 py-3 rounded-full text-sm font-semibold hover:scale-105 transition-transform">Ready To Fight</a>
+    <router-link to="/contact" class="hidden lg:inline-block bg-[#bbf706] text-black px-6 py-3 rounded-full text-sm font-semibold hover:scale-105 transition-transform">Ready To Fight</router-link>
     <transition name="menu-slide">
       <div v-if="isOpen" class="absolute top-full left-0 w-full lg:hidden bg-neutral-950/95 backdrop-blur-md border-b border-neutral-800">
         <div class="flex flex-col gap-6 p-8">
-          <a href="/#pricing" @click="closeMenu" class="text-base font-medium">Membership</a>
+          <a href="/membership" @click="closeMenu" class="text-base font-medium">Membership</a>
           <router-link to="/services" @click="closeMenu" class="text-base font-medium">Services</router-link>
           <router-link to="/about" @click="closeMenu" class="text-base font-medium">About</router-link>
           <router-link to="/contact" @click="closeMenu" class="text-base font-medium">Contact</router-link>
-          <a href="/#pricing" @click="closeMenu" class="bg-[#bbf706] text-black px-6 py-3 rounded-full text-sm font-semibold text-center mt-4">Ready To Fight</a>
+          <a href="/contact" @click="closeMenu" class="bg-[#bbf706] text-black px-6 py-3 rounded-full text-sm font-semibold text-center mt-4">Ready To Fight</a>
         </div>
       </div>
     </transition>
