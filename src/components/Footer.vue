@@ -6,10 +6,8 @@
     </router-link>
     <div class="flex flex-wrap justify-center gap-6 text-neutral-400 text-sm">
       <router-link to="/" class="hover:text-white transition-colors">Home</router-link>
-      <router-link to="/services" class="hover:text-white transition-colors">CrossFit Classes</router-link>
-      <router-link to="/services" class="hover:text-white transition-colors">Strength Training</router-link>
-      <router-link to="/services" class="hover:text-white transition-colors">Personal Training</router-link>
-      <router-link to="/services" class="hover:text-white transition-colors">Member Events</router-link>
+      <router-link to="/training" class="hover:text-white transition-colors">Training</router-link>
+      <router-link to="/services" class="hover:text-white transition-colors">Services</router-link>
       <router-link to="/about" class="hover:text-white transition-colors">About</router-link>
       <router-link to="/contact" class="hover:text-white transition-colors">Contact</router-link>
     </div>

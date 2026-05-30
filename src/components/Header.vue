@@ -17,8 +17,8 @@
       <span class="absolute transition-transform duration-300" :class="{ 'rotate-0 opacity-100': isOpen, 'rotate-90 opacity-0': !isOpen }">✕</span>
     </button>
     <nav class="hidden lg:flex items-center gap-8">
-      <router-link to="/services" class="text-sm font-medium hover:text-[#bbf706] transition-colors">Gym Benefits</router-link>
-      <a href="/#pricing" class="text-sm font-medium hover:text-[#bbf706] transition-colors">Membership</a>
+      <router-link to="/membership" class="text-sm font-medium hover:text-[#bbf706] transition-colors">Membership</router-link>
+      <router-link to="/services" class="text-sm font-medium hover:text-[#bbf706] transition-colors">Services</router-link>
       <router-link to="/about" class="text-sm font-medium hover:text-[#bbf706] transition-colors">About</router-link>
       <router-link to="/contact" class="text-sm font-medium hover:text-[#bbf706] transition-colors">Contact</router-link>
     </nav>
@@ -26,8 +26,8 @@
     <transition name="menu-slide">
       <div v-if="isOpen" class="absolute top-full left-0 w-full lg:hidden bg-neutral-950/95 backdrop-blur-md border-b border-neutral-800">
         <div class="flex flex-col gap-6 p-8">
-          <router-link to="/services" @click="closeMenu" class="text-base font-medium">Gym Benefits</router-link>
           <a href="/#pricing" @click="closeMenu" class="text-base font-medium">Membership</a>
+          <router-link to="/services" @click="closeMenu" class="text-base font-medium">Services</router-link>
           <router-link to="/about" @click="closeMenu" class="text-base font-medium">About</router-link>
           <router-link to="/contact" @click="closeMenu" class="text-base font-medium">Contact</router-link>
           <a href="/#pricing" @click="closeMenu" class="bg-[#bbf706] text-black px-6 py-3 rounded-full text-sm font-semibold text-center mt-4">Ready To Fight</a>
