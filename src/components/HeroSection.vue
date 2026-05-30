@@ -56,21 +56,21 @@ import { gsap } from 'gsap'
 
 const slides = [
   {
-    bg: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2000&auto=format&fit=crop',
+    bg: '/hero/image_1.jpg',
     title: 'Crush your health and fitness goals in no time',
     sub: 'It doesn\'t matter if your goal is to get stronger, burn fat, or to just stay fit our world class coaches will guide you every step of the way.',
     cta: 'Ready To Fight',
     ctaLink: '/#pricing'
   },
   {
-    bg: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2000&auto=format&fit=crop',
+    bg: '/hero/image_3.jpg',
     title: 'Transform your body, unleash your strength',
     sub: 'Join our community and experience the power of functional fitness in a supportive and energetic environment.',
     cta: 'Book your first class',
     ctaLink: '/contact'
   },
   {
-    bg: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2000&auto=format&fit=crop',
+    bg: '/hero/image_2.jpg',
     title: 'Where champions are made',
     sub: 'From beginners to elite athletes, our gym is designed to push your limits and redefine your potential.',
     cta: 'Start your journey',

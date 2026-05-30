@@ -1,4 +1,3 @@
-<!-- src/components/home/FeaturesSection.vue -->
 <template>
   <section class="relative py-24 px-[5%] max-w-7xl mx-auto overflow-x-hidden">
     <div class="text-center mb-8">
@@ -61,7 +60,7 @@ const features = [
       'Coaches who remember your name and push your limits',
       'A tribe that celebrates your wins - no matter how small'
     ],
-    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop'
+    image: '/main/image_1.jpg'
   },
   {
     label: 'Strength Training',
@@ -72,7 +71,7 @@ const features = [
       'Atlas stones, yokes, and all the strongman toys',
       'Space to grunt, drop weights, and unleash your inner beast'
     ],
-    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop'
+    image: '/main/image_5.jpg'
   },
   {
     label: 'Personal Training',
@@ -83,7 +82,7 @@ const features = [
       'Weekly check-ins to keep you on track',
       'Nutrition playbooks that actually taste good'
     ],
-    image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1470&auto=format&fit=crop'
+    image: '/main/image_4.jpg'
   },
   {
     label: 'Member Events',
@@ -94,7 +93,7 @@ const features = [
       'Holiday parties & outdoor movie nights',
       'Exclusive seminars with pro athletes & coaches'
     ],
-    image: 'https://images.unsplash.com/photo-1526506118025-a1c0d4a991f8?q=80&w=1470&auto=format&fit=crop'
+    image: '/main/image_3.jpg'
   }
 ]
 
