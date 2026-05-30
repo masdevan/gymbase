@@ -1,5 +1,5 @@
 <template>
-  <div class="group bg-neutral-900 border border-neutral-800 hover:border-[#bbf706] rounded-2xl p-6 flex flex-col transition-all duration-300 hover:shadow-xl hover:shadow-[#bbf706]/10 hover:-translate-y-1">
+  <div class="group bg-neutral-900 border border-neutral-800 hover:border-[#bbf706] rounded-2xl p-6 flex flex-col transition-all duration-300 hover:-translate-y-1">
     <div class="flex items-center gap-4 mb-5">
       <div class="relative">
         <div class="w-14 h-14 rounded-full bg-[#bbf706] text-black flex items-center justify-center font-bold text-xl shrink-0">
